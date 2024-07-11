@@ -8,7 +8,7 @@ import time
 # load the model
 model = pickle.load(open('twitter_sentiment.pkl', 'rb'))
 
-st.title('Twitter Sentiment Analysis')
+st.title('Sentiment Analysis App')
 
 tweet = st.text_input('Enter your tweet')
 
